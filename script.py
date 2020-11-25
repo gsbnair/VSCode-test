@@ -1,7 +1,6 @@
-import sys
 import requests
 
-print(sys.version)
+
 print("hello world")
 
 
@@ -10,9 +9,7 @@ def greetperson(name_of_person):
     return greet
 
 
-print("hello")
-
-print(greetperson("Albert"))
+print(greetperson("Albert babel"))
 
 r = requests.get("https://coreyms.com")
 print(r.status_code)
